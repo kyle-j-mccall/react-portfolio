@@ -3,14 +3,14 @@
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
-  /* animation: text-color 4s linear infinite; */
-  font-size: 4vh;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: lighter;
+  font-size: 2.5vh;
 }
 
 .landing-body {
   /* background-color: rgb(25, 26, 25); */
-  background-image: url(../../../public/polygon-mountain.jpg);
+  background-image: url(../../../public/fog-landscape.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -19,15 +19,17 @@ h1 {
   height: 100vh;
 }
 
-main {
+.landing-main {
   display: flex;
   flex-direction: column;
-  border: 2px solid white;
-  padding: 5%;
-  font-size: 15vw;
+  border: 1px solid black;
+  justify-content: center;
+  width: 28vw;
+  height: 30vh;
+  font-size: 13vw;
   align-self: center;
-  color: white;
-  background: linear-gradient(rgb(0, 0, 0) 50%, rgb(57, 91, 100));
+  color: black;
+  background: linear-gradient(rgb(202, 205, 196) 50%, rgb(57, 91, 100));
   /* background-image: url(../../../public/blak-wave.jpg); */
   /* background-size: 600px 600px;
   box-shadow: 6px 5px 8px -3px rgba(250, 88, 182, 0.45);
@@ -51,13 +53,13 @@ main {
 }
 
 #enter-button {
-  font-family: 'Major Mono Display', monospace;
-  background-color: rgb(57, 91, 100);
-  color: white;
-  border: 1px solid white;
-  padding: 1.2rem;
-  font-size: 0.7rem;
-  margin: 1rem;
+  font-family: 'Anonymous Pro', monospace;
+  background-color: rgb(231, 246, 242);
+  color: black;
+  border: 1px solid black;
+  padding: 1.5vh;
+  font-size: 1.5vh;
+  margin-top: 2vh;
   cursor: crosshair;
   box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
   -webkit-box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
