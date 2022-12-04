@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  /* animation: text-color 4s linear infinite; */
+  font-size: 4vh;
+}
+
+.landing-body {
+  /* background-color: rgb(25, 26, 25); */
+  background-image: url(../../../public/polygon-mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  padding: 5%;
+  font-size: 15vw;
+  align-self: center;
+  color: white;
+  background: linear-gradient(rgb(0, 0, 0) 50%, rgb(57, 91, 100));
+  /* background-image: url(../../../public/blak-wave.jpg); */
+  /* background-size: 600px 600px;
+  box-shadow: 6px 5px 8px -3px rgba(250, 88, 182, 0.45);
+  -webkit-box-shadow: 6px 5px 8px -3px rgba(250, 88, 182, 0.45);
+  -moz-box-shadow: 6px 5px 8px -3px rgba(250, 88, 182, 0.45);
+  animation: container-on-load ease-in 0.5s 1 normal forwards; */
+}
+
+/* main:hover {
+  transition: 0.3s all ease-in-out;
+  color: rgb(250, 88, 182);
+  border: 2px solid rgb(250, 88, 182);
+  box-shadow: 6px 5px 8px -3px rgb(122, 11, 192);
+  -webkit-box-shadow: 6px 5px 8px -3px rgb(122, 11, 192);
+  -moz-box-shadow: 6px 5px 8px -3px rgb(122, 11, 192);
+} */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#enter-button {
+  font-family: 'Major Mono Display', monospace;
+  background-color: rgb(57, 91, 100);
+  color: white;
+  border: 1px solid white;
+  padding: 1.2rem;
+  font-size: 0.7rem;
+  margin: 1rem;
+  cursor: crosshair;
+  box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
+}
+
+#enter-button:hover {
+  transition: all 0.2s ease-in-out;
+  scale: 1.01;
+  background-color: rgb(25, 26, 25);
+  color: rgb(216, 233, 168);
+  border: 2px solid rgb(216, 233, 168);
+  box-shadow: 4px 4px 4px 0px rgba(216, 233, 168, 0.31);
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(216, 233, 168, 0.31);
+  -moz-box-shadow: 4px 4px 4px 0px rgba(216, 233, 168, 0.31);
+  /* animation: button-text-color 4s infinite; */
+  /* border: 2px solid rgb(234, 170, 208); */
+}
+
+@keyframes text-color {
+  0% {
+    color: rgb(216, 233, 168);
+  }
+  25% {
+    color: rgb(78, 159, 61);
+  }
+  50% {
+    color: rgb(30, 81, 40);
+  }
+  100% {
+    color: rgb(216, 233, 168);
+  }
+}
+@keyframes button-text-color {
+  0% {
+    color: rgb(250, 88, 182);
+  }
+  25% {
+    color: rgb(122, 11, 192);
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: rgb(216, 233, 168);
+  }
+}
+
+@keyframes border-color {
+  0% {
+    color: rgb(250, 88, 182);
+  }
+  25% {
+    color: rgb(122, 11, 192);
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: rgb(216, 233, 168);
+  }
+}
+
+@keyframes container-on-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
