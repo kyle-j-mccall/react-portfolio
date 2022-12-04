@@ -27,9 +27,18 @@ h1 {
   width: 28vw;
   height: 30vh;
   font-size: 13vw;
+  border-radius: 10px;
   align-self: center;
   color: black;
-  background: linear-gradient(rgb(202, 205, 196) 50%, rgb(57, 91, 100));
+  /* background: linear-gradient(rgb(202, 205, 196) 50%, rgb(57, 91, 100)); */
+  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(255, 255, 255) 0%,
+    rgb(76, 111, 120) 95%
+  );
   /* background-image: url(../../../public/blak-wave.jpg); */
   /* background-size: 600px 600px;
   box-shadow: 6px 5px 8px -3px rgba(250, 88, 182, 0.45);
@@ -54,16 +63,17 @@ h1 {
 
 #enter-button {
   font-family: 'Anonymous Pro', monospace;
-  background-color: rgb(231, 246, 242);
   color: black;
+  background-color: rgb(201, 213, 216);
   border: 1px solid black;
   padding: 1.5vh;
+  border-radius: 10px;
   font-size: 1.5vh;
   margin-top: 2vh;
   cursor: crosshair;
-  box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
+  /* box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
   -webkit-box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
-  -moz-box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(216, 233, 168, 0.4); */
 }
 
 #enter-button:hover {
