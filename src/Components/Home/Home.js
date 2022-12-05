@@ -1,6 +1,12 @@
 import React from 'react';
 import './Home.css';
 import Me from './me.jpeg';
+import html from './html-icon.png';
+import js from './js-icon.png';
+import css from './css-icon.png';
+import exp from './exp-icon.png';
+import react from './react-icon.png';
+import sql from './sql-icon.png';
 
 export default function Home() {
   return (
@@ -10,7 +16,7 @@ export default function Home() {
           <h1 className="about">About</h1>
         </div>
         <div className="about-section">
-          <div className="photo-container">
+          <div className="me-container">
             <img className="headshot" src={Me}></img>
             <div className="bio-container">
               <p className="bio">
@@ -23,20 +29,26 @@ export default function Home() {
           </div>
           <div className="tech-stack">
             <p>
-              let techStack = &#123;<br></br>
-              markup: HTML,
+              Tech Stack
               <br></br>
-              style: CSS,
-              <br></br>
-              script: JavaScript,
-              <br></br>
-              frontEnd: React,
-              <br></br>
-              backEnd: Express.js,
-              <br></br>
-              database: SQL
-              <br></br>
-              &#125;
+              <div className="html">
+                HTML <img src={html}></img>
+              </div>
+              <div className="css">
+                CSS <img src={css}></img>
+              </div>
+              <div className="js">
+                JavaScript <img src={js}></img>
+              </div>
+              <div className="react">
+                React <img src={react}></img>
+              </div>
+              <div className="exp">
+                Express.js <img src={exp}></img>
+              </div>
+              <div>
+                SQL <img src={sql}></img>
+              </div>
             </p>
           </div>
         </div>
