@@ -1,0 +1,39 @@
+.home-body {
+  display: grid;
+  grid-template-rows: 2fr 8fr;
+  font-family: 'Anonymous Pro', monospace;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(207deg, rgba(0, 0, 0, 1) 0%, rgba(96, 96, 96, 1) 100%);
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+}
+
+.about {
+  font-weight: bold;
+  font-size: 4vh;
+  color: white;
+}
+
+.bio-container {
+  width: 20vw;
+}
+
+.bio {
+  color: white;
+}
+
+.tech-stack {
+  font-size: 2vh;
+  line-height: 3vh;
+  color: white;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.headshot {
+  height: 30vh;
+}

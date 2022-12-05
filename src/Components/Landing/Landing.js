@@ -1,5 +1,8 @@
 import React from 'react';
 import './Landing.css';
+import Stack from '@mui/material/Stack';
+import IconButton from '@mui/material/IconButton';
+import Fingerprint from '@mui/icons-material/Fingerprint';
 
 export default function Landing() {
   return (
@@ -12,7 +15,14 @@ export default function Landing() {
         </div>
 
         <div className="button-container">
-          <button id="enter-button">View my portfolio</button>
+          <p id="enter-button">
+            View my portfolio{' '}
+            <Stack className="finger" direction="row" spacing={1}>
+              <IconButton height="2vh" aria-label="fingerprint" color="#fafafa">
+                <Fingerprint />
+              </IconButton>
+            </Stack>
+          </p>
         </div>
       </main>
     </div>
