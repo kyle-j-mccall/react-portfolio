@@ -18,6 +18,9 @@ export default function Nav() {
             <p>About</p>
           </Link>
           <Link style={{ textDecoration: 'none', color: 'white' }}>
+            <p>Projects</p>
+          </Link>
+          <Link style={{ textDecoration: 'none', color: 'white' }}>
             <p>Contact</p>
           </Link>
         </div>
