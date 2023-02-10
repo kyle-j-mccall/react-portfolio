@@ -1,4 +1,52 @@
+* {
+  font-family: 'Cutive Mono', monospace;
+}
+
 .dj-img,
 .chess-img {
-  height: 20vh;
+  height: 25vh;
+}
+
+.projects-main {
+  margin-top: 8vh;
+  height: 200vh;
+}
+.projects-main h1 {
+  margin-top: 20vh;
+  font-size: 6vh;
+  color: white;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 10vh;
+  color: white;
+}
+
+.chess-desc {
+  width: 35vw;
+  color: white;
+}
+.dj-desc {
+  width: 35vw;
+}
+
+.dj-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chess-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-container img {
+  border: 1px solid white;
+  height: 30vh;
 }

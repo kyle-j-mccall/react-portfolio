@@ -1,17 +1,15 @@
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cutive Mono', monospace;
 
-  font-weight: lighter;
-  font-size: 2.5vh;
+  font-size: 4.5vh;
 }
 
 .landing-body {
-  /* background-color: rgb(25, 26, 25); */
-  background-image: url(../../../public/white-sound.jpeg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -21,40 +19,26 @@ h1 {
 }
 
 .landing-main {
-  display: flex;
-  flex-direction: column;
-  /* border: 1px solid black; */
-  justify-content: center;
-  width: 25vw;
-  border: 2px solid black;
+  width: 40vw;
   height: 30vh;
   font-size: 13vw;
-  border-radius: 10px;
-  align-self: center;
-  color: white;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(207deg, rgba(0, 0, 0, 1) 0%, rgba(96, 96, 96, 1) 100%);
-}
-
-.button-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 40vh;
+  padding: 5px 15px;
+  align-self: center;
+  color: black;
 }
 
-#enter-button {
-  font-family: 'Montserrat', sans-serif;
-
-  color: white;
-
-  padding: 1.5vh;
-
-  font-size: 2vh;
-  margin-top: 2vh;
-  cursor: crosshair;
+.get-to-know-me {
+  font-size: 2.5vh;
+  font-family: 'Cutive Mono', monospace;
+  color: black;
 }
 
-.finger {
-  margin-left: 3vw;
+.arrow {
+  height: 5vh;
 }
 
 @keyframes text-color {

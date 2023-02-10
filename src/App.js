@@ -10,6 +10,7 @@ function App() {
       <Landing />
       <Nav />
       <Home />
+      <Nav />
       <Projects />
     </div>
   );
