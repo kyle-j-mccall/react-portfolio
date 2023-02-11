@@ -15,7 +15,6 @@ import background from '../../assets/skyscraper.jpg';
 export default function Home() {
   const target = useRef(null);
   const about = useParallax({
-    easing: 'easeInCubic',
     rotateX: [90, 0],
   });
 
@@ -33,19 +32,19 @@ export default function Home() {
         </h1>
       </div>
       <div className="about-section">
-        <ParallaxScroll className="me-container" speed={-20}>
+        <ParallaxScroll className="me-container" speed={-10}>
           <img className="headshot" src={Me}></img>
           <div className="bio-container">
             <p className="bio">
-              Full-stack software developer with a background in music production, audio engineering
-              and hospitality. Equipped with a keen eye for design, a passion for logic and problem
-              solving, and a strong attraction to intellectual pursuits. Enjoys working with others
-              or alone and cherishes the flow state in any stimulating task.
+              I&apos;m a Full-stack software developer with a background in music production, audio
+              engineering and hospitality. I come equipped with a keen eye for design, a passion for
+              logic and problem solving, and a strong attraction to intellectual pursuits. I enjoy
+              working with others or alone and cherishes the flow state in any stimulating task. .
             </p>
           </div>
         </ParallaxScroll>
 
-        <ParallaxScroll className="tech-stack" speed={20}>
+        <ParallaxScroll className="tech-stack" speed={-10}>
           <div className="stack-header">Tech Stack</div>
 
           <br></br>

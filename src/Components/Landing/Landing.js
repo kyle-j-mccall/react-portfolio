@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import './Landing.css';
 import { Parallax } from 'react-parallax';
-import dots from '../../assets/black-dots.jpg';
-import white from '../../assets/white.jpg';
+
+import background from '../../assets/gorge.jpg';
 import { useParallax } from 'react-scroll-parallax';
 import arrow from '../../assets/down-arrow.png';
 import { Parallax as ParallaxScroll } from 'react-scroll-parallax';
@@ -15,11 +15,17 @@ export default function Landing() {
   });
 
   return (
-    <Parallax className="landing-body" strength={600} bgImage={white} ref={target}>
+    <Parallax
+      className="landing-body"
+      strength={600}
+      bgImage={background}
+      ref={target}
+      bgImageStyle={{ height: '138vh', width: '100vw' }}
+    >
       <ParallaxScroll speed={-20}>
         <main className="landing-main" ref={greeting.ref}>
           <div className="welcome-container">
-            <h1>
+            <h1 className="introduction">
               Hello, I&apos;m Kyle McCall. <br></br> I&apos;m a full-stack software developer.
             </h1>
           </div>
