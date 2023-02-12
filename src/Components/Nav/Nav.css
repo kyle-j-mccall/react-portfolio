@@ -6,7 +6,7 @@
   grid-template-columns: 10% 90%;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   background-color: rgb(56, 41, 51);
@@ -29,4 +29,8 @@ Link {
   margin-right: 9vw;
   justify-content: space-evenly;
   display: flex;
+}
+
+nav {
+  z-index: 100;
 }

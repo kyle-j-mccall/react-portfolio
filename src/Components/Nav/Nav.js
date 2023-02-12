@@ -5,14 +5,9 @@ import './Nav.css';
 import { useParallax } from 'react-scroll-parallax';
 
 export default function Nav() {
-  const target = useRef(null);
-  const nav = useParallax({
-    rotateX: [90, 0],
-  });
-
   return (
-    <div ref={target}>
-      <nav className="navbar" ref={nav.ref}>
+    <div>
+      <nav className="navbar">
         <div className="icon">
           <img src={Icon}></img>
         </div>

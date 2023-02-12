@@ -33,7 +33,25 @@ export default function Projects() {
         <div className="projects-container">
           <div className="dj-container">
             <h2>Desk Jockey</h2>
-            <img src={DJ} className="screenshot" />
+            <div className="image-container">
+              <img src={DJ} className="screenshot" />
+
+              <div className="overlay">
+                <div>
+                  <a href="https://github.com/Zacharyjsultan/project-mind-body" target="blank">
+                    <img src={github} className="icon" />
+                  </a>
+                  <p className="git">Github</p>
+                </div>
+                <div>
+                  <a href="https://desk-jockey.netlify.app/auth/sign-in" target="blank">
+                    <img src={netlify} className="icon" />
+                  </a>
+                  <p className="net">Netlify Deploy</p>
+                </div>
+              </div>
+            </div>
+
             <div className="desc">
               <p>
                 Desk Jockey is a productivity hub designed to promote focus, eliminate distractions
@@ -45,7 +63,28 @@ export default function Projects() {
           </div>
           <div className="chess-container">
             <h2>Chess</h2>
-            <img src={chess} className="screenshot" />
+            <div className="image-container">
+              <img src={chess} className="screenshot" />
+
+              <div className="overlay">
+                <div>
+                  <a href="https://github.com/nathburg/chess" target="blank">
+                    <img src={github} className="icon" />
+                  </a>
+                  <p className="git">Github</p>
+                </div>
+                <div>
+                  <a
+                    href="https://alchemy-chess.netlify.app/auth/?redirectUrl=https%3A%2F%2Falchemy-chess.netlify.app%2Fhome-page%2F"
+                    target="blank"
+                  >
+                    <img src={netlify} className="icon" />
+                  </a>
+                  <p className="net">Netlify Deploy</p>
+                </div>
+              </div>
+            </div>
+
             <div className="desc">
               <p>
                 This chess application is a fully functional chess app that includes real time
@@ -57,7 +96,28 @@ export default function Projects() {
           </div>
           <div className="goosebump-container">
             <h2>Give Yourself Goosebumps</h2>
-            <img src={goosebump} className="screenshot" />
+
+            <div className="image-container">
+              <img src={goosebump} className="screenshot" />
+              <div className="overlay">
+                <div>
+                  <a href="https://github.com/the-goosebumps" target="blank">
+                    <img src={github} className="icon" />
+                  </a>
+                  <p className="git">Github</p>
+                </div>
+                <div>
+                  <a
+                    href="https://give-yourself-goosebumps.netlify.app/auth/sign-in"
+                    target="blank"
+                  >
+                    <img src={netlify} className="icon" />
+                  </a>
+                  <p className="net">Netlify Deploy</p>
+                </div>
+              </div>
+            </div>
+
             <div className="desc">
               <p>
                 Give yourself goosebumps is a create your own adventure application based off of
@@ -70,14 +130,22 @@ export default function Projects() {
             <h2>what todo, what todo...?</h2>
             <div className="image-container">
               <img src={todo} className="screenshot" />
-              <div className="icon-container">
-                <div className="overlay">
-                  <a>
+
+              <div className="overlay">
+                <div>
+                  <a
+                    href="https://github.com/orgs/what-todo-todo-fullstack/repositories"
+                    target="blank"
+                  >
                     <img src={github} className="icon" />
                   </a>
-                  <a>
+                  <p className="git">Github</p>
+                </div>
+                <div>
+                  <a href="https://todo-react-fromscratch.netlify.app/auth/sign-in" target="blank">
                     <img src={netlify} className="icon" />
                   </a>
+                  <p className="net">Netlify Deploy</p>
                 </div>
               </div>
             </div>
