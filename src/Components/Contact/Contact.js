@@ -20,20 +20,26 @@ export default function Contact() {
       <div className="contact-main">
         <div className="links-container">
           <div className="linkedin">
-            <img src={li} className="contact-icon" />
-            <p>Linkedin</p>
+            <a href="https://www.linkedin.com/in/kyle-mccall/" target="blank">
+              <img src={li} className="contact-icon" />
+              <p>Linkedin</p>
+            </a>
           </div>
           <div className="github">
-            <img src={gh} className="contact-icon" />
-            <p>Github</p>
+            <a href="https://github.com/kyle-j-mccall" target="blank">
+              <img src={gh} className="contact-icon" />
+              <p>Github</p>
+            </a>
           </div>
           <div className="email">
-            <img src={email} className="contact-icon" />
-            <p>Email</p>
+            <a href="mailto:kylem147@gmail.com" target="blank">
+              <img src={email} className="contact-icon" />
+              <p>Email</p>
+            </a>
           </div>
           <div className="phone">
             <img src={phone} className="contact-icon" />
-            <p>Phone</p>
+            <p>(541)-993-6372</p>
           </div>
         </div>
       </div>

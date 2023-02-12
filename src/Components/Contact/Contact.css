@@ -32,4 +32,9 @@
 
 .links-container p {
   color: white;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
