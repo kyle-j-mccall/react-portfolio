@@ -14,8 +14,8 @@ export default function Contact({ contact }) {
       <Parallax
         className="contact-body"
         bgImage={background}
-        strength={200}
-        bgImageStyle={{ height: '100vh', width: '100vw' }}
+        strength={300}
+        bgImageStyle={{ height: '100%', width: '100vw' }}
       >
         <div className="contact-main">
           <div>
