@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.introduction {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.3vw;
+  font-size: 5vh;
+  background: #050838;
+  background: linear-gradient(to right, black 42%, rgb(0, 63, 6) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+
+  display: inline-block;
+}
+
+.landing-body {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.landing-main {
+  width: 60vw;
+  height: 30vh;
+  font-size: 13vw;
+  display: flex;
+  flex-direction: column;
+  min-width: 560px;
+
+  margin-top: 20vh;
+  padding: 5px 15px;
+  align-self: center;
+  color: black;
+}
+
+.get-to-know-me {
+  font-size: 3vh;
+  font-family: 'Cutive Mono', monospace;
+  color: black;
+}
+
+.arrow {
+  height: 5vh;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}

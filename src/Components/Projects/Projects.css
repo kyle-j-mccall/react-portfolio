@@ -1,0 +1,166 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.projects-main {
+  height: 220vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.projects-container {
+  height: 150vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 10vh;
+  justify-items: center;
+  align-items: center;
+  color: white;
+}
+
+.projects-container h2 {
+  color: silver;
+  font-size: 3.5vh;
+  font-weight: 500;
+}
+
+.recent-projects {
+  margin-top: 15vh;
+  font-size: 5vh;
+  font-family: 'Montserrat', sans-serif;
+
+  color: white;
+  background-image: linear-gradient(
+    -225deg,
+
+    rgb(253, 253, 253) 67%,
+    rgb(0, 0, 0) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s ease-in-out infinite;
+  display: inline-block;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.57);
+}
+
+.dj-container {
+  font-size: 2vh;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.chess-container {
+  font-size: 2vh;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.goosebump-container {
+  font-size: 2vh;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todo-container {
+  font-size: 2vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenshot {
+  position: relative;
+  border: 2px solid silver;
+  height: 30vh;
+  border-radius: 4px;
+  cursor: crosshair;
+}
+
+.desc {
+  max-width: 500px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.icon {
+  height: 7vh;
+  z-index: 100;
+  margin-top: 1vh;
+  cursor: pointer;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.overlay {
+  flex-grow: 1;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.overlay:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  backdrop-filter: grayscale(100%) blur(2px) brightness(50%);
+}
+
+.overlay p {
+  margin: 0;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.git {
+  font-weight: bold;
+  color: red;
+}
+
+.net {
+  font-weight: bold;
+  color: rgb(0, 255, 17);
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
