@@ -6,7 +6,7 @@
   grid-template-columns: 10% 90%;
   justify-content: space-between;
   align-items: center;
-
+  font-size: 2vh;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   background-color: rgb(56, 41, 51);
@@ -26,11 +26,25 @@ Link {
 
 .nav-links {
   color: white;
-  margin-right: 9vw;
+  margin-right: 10vw;
+
   justify-content: space-evenly;
   display: flex;
 }
 
 nav {
   z-index: 100;
+}
+
+.nav-link:hover {
+  transition: all 0.2s ease-in-out;
+  background: #edeef2;
+  background: linear-gradient(to right, rgb(64, 138, 208) 0%, rgb(236, 179, 101) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.1);
+}
+
+.kahji {
+  height: 5vh;
 }

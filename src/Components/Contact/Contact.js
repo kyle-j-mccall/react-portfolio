@@ -8,41 +8,45 @@ import li from './assets/li.png';
 
 import './Contact.css';
 
-export default function Contact() {
+export default function Contact({ contact }) {
   return (
-    <Parallax
-      className="contact-body"
-      bgImage={background}
-      strength={600}
-      blur={2}
-      bgImageStyle={{ height: '100vh', width: '100vw' }}
-    >
-      <div className="contact-main">
-        <div className="links-container">
-          <div className="linkedin">
-            <a href="https://www.linkedin.com/in/kyle-mccall/" target="blank">
-              <img src={li} className="contact-icon" />
-              <p>Linkedin</p>
-            </a>
+    <div ref={contact}>
+      <Parallax
+        className="contact-body"
+        bgImage={background}
+        strength={200}
+        bgImageStyle={{ height: '100vh', width: '100vw' }}
+      >
+        <div className="contact-main">
+          <div>
+            <h2 className="talk">TALK TO ME</h2>
           </div>
-          <div className="github">
-            <a href="https://github.com/kyle-j-mccall" target="blank">
-              <img src={gh} className="contact-icon" />
-              <p>Github</p>
-            </a>
-          </div>
-          <div className="email">
-            <a href="mailto:kylem147@gmail.com" target="blank">
-              <img src={email} className="contact-icon" />
-              <p>Email</p>
-            </a>
-          </div>
-          <div className="phone">
-            <img src={phone} className="contact-icon" />
-            <p>(541)-993-6372</p>
+          <div className="links-container">
+            <div className="linkedin">
+              <a href="https://www.linkedin.com/in/kyle-mccall/" target="blank">
+                <img src={li} className="contact-icon" />
+                <p>Linkedin</p>
+              </a>
+            </div>
+            <div className="github">
+              <a href="https://github.com/kyle-j-mccall" target="blank">
+                <img src={gh} className="contact-icon" />
+                <p>Github</p>
+              </a>
+            </div>
+            <div className="email">
+              <a href="mailto:kylem147@gmail.com" target="blank">
+                <img src={email} className="contact-icon" />
+                <p>Email</p>
+              </a>
+            </div>
+            <div className="phone">
+              <img src={phone} className="contact-icon" />
+              <p>(541)-993-6372</p>
+            </div>
           </div>
         </div>
-      </div>
-    </Parallax>
+      </Parallax>
+    </div>
   );
 }
