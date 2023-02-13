@@ -23,9 +23,9 @@ export default function Projects({ projects }) {
       <Parallax
         className="projects-main"
         bgImage={background}
-        blur={3}
+        blur={2}
         strength={600}
-        bgImageStyle={{ height: '150vh', width: '100vw' }}
+        bgImageStyle={{ height: '100%', width: '100vw' }}
         ref={target}
       >
         <h1 className="recent-projects" ref={projectTitle.ref}>
