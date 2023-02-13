@@ -109,3 +109,13 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: visible;
+    height: auto;
+  }
+}
