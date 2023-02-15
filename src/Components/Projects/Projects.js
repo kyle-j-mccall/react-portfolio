@@ -92,7 +92,7 @@ export default function Projects({ projects }) {
                   This chess application is a fully functional chess app that includes real time
                   functionality, giving the user the ability to play with another user from a
                   different machine. All the game logic was written by myself and the three other
-                  devs in Vanilla JavaScript. For this project I was the the lead on design and UI.
+                  devs in Vanilla JavaScript. For this project I was the lead on design and UI.
                 </p>
               </div>
             </div>
