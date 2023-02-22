@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 .introduction {
@@ -12,8 +11,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
-
-  display: inline-block;
+  text-align: center;
 }
 
 .landing-body {
@@ -33,7 +31,7 @@
   flex-direction: column;
   min-width: 400px;
 
-  margin-top: 20vh;
+  margin-top: 30vh;
   padding: 5px 15px;
   align-self: center;
   color: black;
@@ -43,6 +41,7 @@
   font-size: 3vh;
   font-family: 'Cutive Mono', monospace;
   color: black;
+  text-align: center;
 }
 
 .arrow {

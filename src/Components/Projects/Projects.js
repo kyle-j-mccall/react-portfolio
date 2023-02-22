@@ -15,23 +15,22 @@ import { Parallax as ParallaxScroll, useParallax } from 'react-scroll-parallax';
 export default function Projects({ projects }) {
   const target = useRef(null);
   const projectTitle = useParallax({
-    rotateY: [90, 0],
+    rotateX: [90, 0],
   });
-
   return (
     <div ref={projects}>
       <Parallax
         className="projects-main"
         bgImage={background}
         blur={2}
-        strength={600}
+        strength={200}
         bgImageStyle={{ height: '100%', width: '100vw' }}
         ref={target}
       >
         <h1 className="recent-projects" ref={projectTitle.ref}>
           Recent Projects
         </h1>
-        <ParallaxScroll speed={-20}>
+        <ParallaxScroll speed={-10}>
           <div className="projects-container">
             <div className="dj-container">
               <h2>Desk Jockey</h2>
