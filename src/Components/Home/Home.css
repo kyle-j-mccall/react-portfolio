@@ -53,3 +53,18 @@
     background-position: 200% center;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .introduction {
+    margin-top: 10vh;
+    font-size: 3vh;
+  }
+
+  .get-to-know-me {
+    font-size: 2vh;
+  }
+
+  .arrow {
+    height: 3vh;
+  }
+}

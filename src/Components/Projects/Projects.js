@@ -22,7 +22,6 @@ export default function Projects({ projects }) {
       <Parallax
         className="projects-main"
         bgImage={background}
-        blur={2}
         strength={200}
         bgImageStyle={{ height: '100%', width: '100vw' }}
         ref={target}
