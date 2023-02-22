@@ -11,7 +11,7 @@ import redux from './assets/redux.png';
 import { useParallax } from 'react-scroll-parallax';
 import { Parallax } from 'react-parallax';
 import { Parallax as ParallaxScroll } from 'react-scroll-parallax';
-import background from '../../assets/trip.jpg';
+import background from '../../assets/shadow.jpg';
 
 export default function About({ about }) {
   const target = useRef(null);
@@ -24,7 +24,6 @@ export default function About({ about }) {
       <Parallax
         className="home-body"
         bgImage={background}
-        blur={2}
         strength={200}
         bgImageStyle={{ height: '150vh' }}
         ref={target}
