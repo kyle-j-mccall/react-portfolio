@@ -4,6 +4,8 @@
 
 .contact-icon {
   height: 8vh;
+  justify-self: center;
+  align-self: center;
 }
 
 .contact-main {
@@ -33,7 +35,7 @@
 
 .links-container p {
   color: white;
-  margin: 0;
+  text-align: center;
 }
 
 a {
@@ -51,6 +53,42 @@ a {
   font-weight: 500;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.57);
 }
+.linkedin {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.github {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.email {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.phone {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
 @media only screen and (max-width: 600px) {
   .contact-icon {
@@ -58,6 +96,7 @@ a {
   }
 
   .links-container {
-    width: 70vw;
+    width: 80vw;
+    height: 80vw;
   }
 }

@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 .introduction {
@@ -12,8 +11,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
-
-  display: inline-block;
+  text-align: center;
 }
 
 .landing-body {
@@ -33,7 +31,7 @@
   flex-direction: column;
   min-width: 400px;
 
-  margin-top: 20vh;
+  margin-top: 30vh;
   padding: 5px 15px;
   align-self: center;
   color: black;
@@ -43,6 +41,7 @@
   font-size: 3vh;
   font-family: 'Cutive Mono', monospace;
   color: black;
+  text-align: center;
 }
 
 .arrow {
@@ -52,5 +51,20 @@
 @keyframes shine {
   to {
     background-position: 200% center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .introduction {
+    margin-top: 10vh;
+    font-size: 3vh;
+  }
+
+  .get-to-know-me {
+    font-size: 2vh;
+  }
+
+  .arrow {
+    height: 3vh;
   }
 }
