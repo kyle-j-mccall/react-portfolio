@@ -15,7 +15,7 @@ export default function Contact({ contact }) {
         className="contact-body"
         bgImage={background}
         strength={300}
-        bgImageStyle={{ height: '100%', width: '100vw' }}
+        bgImageStyle={{ height: '100%', width: '100%' }}
       >
         <div className="contact-main">
           <div>

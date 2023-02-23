@@ -25,7 +25,7 @@ export default function About({ about }) {
         className="home-body"
         bgImage={background}
         strength={200}
-        bgImageStyle={{ height: '150vh' }}
+        bgImageStyle={{ height: '100%', backgroundPosition: 'left', width: '100%' }}
         ref={target}
       >
         <div>
@@ -60,7 +60,7 @@ export default function About({ about }) {
             <div className="react">
               <p>React</p> <img src={react}></img>
             </div>
-            <div className="react">
+            <div className="redux">
               <p>Redux</p> <img src={redux}></img>
             </div>
             <div className="html">
