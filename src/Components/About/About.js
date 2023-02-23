@@ -39,13 +39,12 @@ export default function About({ about }) {
             <div className="bio-container">
               <p className="bio">
                 As a software engineer, I am passionate about finding innovative solutions to
-                complex technical problems. My experience working on various projects has allowed me
-                to develop a keen sense of design and user experience, which I believe are essential
-                components of any peace of software. I am well-versed in JavaScript and JavaScript
-                frameworks such as React, Node, and Redux, and have a proven track record of high
-                quality code. I thrive in collaborative environments and am committed to continuous
-                learning and growth. I look forward to contributing my skills and expertise to any
-                project I am a part of.
+                technical challenges. The experience I&apos;ve gained while working on various
+                successful projects demonstrates my keen sense of thoughtful design and overall user
+                experience. I am proficient with JavaScript and its various frameworks such as
+                React, Node, and Redux. My portfolio consists of professionally attuned code and is
+                marketable to a variety of industries. I thrive in a collaborative environment, and
+                I look forward to contributing my skills and expertise to my future projects.
               </p>
             </div>
           </ParallaxScroll>
