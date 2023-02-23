@@ -55,47 +55,48 @@
 }
 .chess-container {
   font-size: 2vh;
+  display: flex;
   height: 100%;
   width: 100%;
-
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 .goosebump-container {
   font-size: 2vh;
+  display: flex;
   height: 100%;
   width: 100%;
-
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 .todo-container {
   font-size: 2vh;
+  display: flex;
   height: 100%;
   width: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .screenshot {
   position: relative;
   border: 2px solid silver;
-  height: 30vh;
+  height: 27vh;
   border-radius: 4px;
   cursor: crosshair;
 }
 
 .desc {
+  width: 25vw;
   font-size: 2vh;
   max-width: 500px;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  min-width: 300px;
 }
 
 .image-container {
@@ -167,7 +168,7 @@
     flex-direction: column;
     flex-grow: 1;
     overflow-y: visible;
-    height: 240vh;
+    height: 235vh;
     overflow-y: visible;
   }
   .projects-container {
