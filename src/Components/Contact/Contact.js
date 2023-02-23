@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import background from './assets/black-shrub.jpg';
+import background from './assets/black-flower.jpg';
 import email from './assets/email.png';
 import phone from './assets/phone.png';
 import gh from './assets/github2.png';
@@ -15,11 +15,11 @@ export default function Contact({ contact }) {
         className="contact-body"
         bgImage={background}
         strength={300}
-        bgImageStyle={{ height: '100%', width: '100%' }}
+        bgImageStyle={{ height: '130vh', width: '100%' }}
       >
         <div className="contact-main">
           <div>
-            <h2 className="talk">TALK TO ME</h2>
+            <h2 className="talk">Talk To Me</h2>
           </div>
           <div className="links-container">
             <div className="linkedin">

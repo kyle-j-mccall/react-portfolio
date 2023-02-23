@@ -19,7 +19,7 @@
 
 .about {
   margin-top: 12vh;
-  font-size: 4.2vh;
+  font-size: 4vh;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: black;
@@ -139,5 +139,13 @@
   .bio-container {
     width: 80vw;
     margin-bottom: 5vh;
+  }
+
+  .tech-stack p {
+    font-size: 1.7vh;
+  }
+
+  .bio {
+    font-size: 1.7vh;
   }
 }

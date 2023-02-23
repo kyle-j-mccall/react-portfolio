@@ -3,7 +3,7 @@
 }
 
 .contact-icon {
-  height: 8vh;
+  height: 7vh;
   justify-self: center;
   align-self: center;
 }
@@ -22,14 +22,14 @@
   justify-items: center;
   align-items: center;
 
-  width: 40vw;
-  height: 50vh;
+  width: 28vw;
+  height: 45vh;
   background-color: rgb(56, 41, 51);
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.77);
   -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.77);
   -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.77);
   background: linear-gradient(207deg, rgb(66, 66, 66) 0%, rgb(0, 0, 0) 100%);
-  border-radius: 8px;
+  border-radius: 6px;
   border: 2px solid white;
 }
 
@@ -88,6 +88,10 @@ a {
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.linkedin img {
+  margin-left: 1vw;
 }
 
 @media only screen and (max-width: 600px) {
