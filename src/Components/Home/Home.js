@@ -28,7 +28,7 @@ export default function Home({ home }) {
           <main className="landing-main" ref={greeting.ref}>
             <div className="welcome-container">
               <h1 className="introduction">
-                Hi, I&apos;m Kyle McCall. <br></br> I&apos;m a full-stack software developer.
+                Hi, I&apos;m Kyle McCall. <br></br> I&apos;m a full-stack software engineer.
               </h1>
             </div>
 

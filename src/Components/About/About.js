@@ -41,11 +41,12 @@ export default function About({ about }) {
                 As a software engineer, I am passionate about finding innovative solutions to
                 complex technical problems. My experience working on various projects has allowed me
                 to develop a keen sense of design and user experience, which I believe are essential
-                components of any peace of software. I am well-versed in JavaScript and JavaScript
-                frameworks such as React, Node, and Redux, and have a proven track record of high
-                quality code. I thrive in collaborative environments and am committed to continuous
-                learning and growth. I look forward to contributing my skills and expertise to any
-                project I am a part of.
+                components of any piece of software.
+                <br></br>
+                <br></br>I am well-versed in JavaScript and JavaScript frameworks such as React,
+                Node, and Redux, and have a proven track record of high quality code. I thrive in
+                collaborative environments and am committed to continuous learning and growth. I
+                look forward to contributing my skills and expertise to any project I am a part of.
               </p>
             </div>
           </ParallaxScroll>
