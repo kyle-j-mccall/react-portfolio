@@ -8,6 +8,7 @@ import exp from './assets/exp-icon.png';
 import react from './assets/react-icon.png';
 import sql from './assets/sql-icon.png';
 import redux from './assets/redux.png';
+import python from './assets/python-icon.png';
 import { useParallax } from 'react-scroll-parallax';
 import { Parallax } from 'react-parallax';
 import { Parallax as ParallaxScroll } from 'react-scroll-parallax';
@@ -62,6 +63,10 @@ export default function About({ about }) {
             <div className="redux">
               <p>Redux</p> <img src={redux}></img>
             </div>
+            <div className="exp">
+              <p>Express.js</p> <img src={exp}></img>
+            </div>
+
             <div className="html">
               <p>HTML</p> <img src={html}></img>
             </div>
@@ -69,8 +74,8 @@ export default function About({ about }) {
               <p>CSS</p> <img src={css}></img>
             </div>
 
-            <div className="exp">
-              <p>Express.js</p> <img src={exp}></img>
+            <div className="python">
+              <p>Python</p> <img src={python}></img>
             </div>
             <div className="sql">
               <p>PostgreSQL</p> <img src={sql}></img>
