@@ -39,14 +39,15 @@ export default function About({ about }) {
             <img className="headshot" src={Me}></img>
             <div className="bio-container">
               <p className="bio">
-                As a software engineer, I am passionate about finding innovative solutions to
-                technical challenges. The experience I&apos;ve gained while working on various
-                successful projects demonstrates my keen sense of thoughtful design and overall user
-                experience. I am proficient with JavaScript and its various frameworks such as
-                React, Node, and Redux. When I&apos;m not coding, I enjoy music production, audio
-                engineering and focusing on detail oriented tasks. I thrive in a collaborative
-                environment, and I look forward to contributing my skills and expertise to my future
-                projects.
+                My name is Kyle McCall and I am a full-stack software engineer. I have a keen eye
+                for design and user experience, and I love crafting professional grade code to solve
+                complex challenges. I am an effective communicator, team player, and have a drive to
+                produce only the best. I&apos;ve built various software applications from the ground
+                up and hold a Certificate in Professional Full-stack Development, obtained from
+                Alchemy Code Lab. When I&apos;m not coding, I enjoy music production, audio
+                engineering and focusing on detail oriented tasks. I&apos;m currently open to new
+                software engineering opportunities, and I look forward to contributing my skills and
+                expertise to my future projects.
               </p>
             </div>
           </ParallaxScroll>
